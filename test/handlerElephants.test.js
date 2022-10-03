@@ -20,4 +20,7 @@ describe('Testes da função HandlerElephants', () => {
   it('etorna um array com a relação de dias em que é possível visitar os elefantes', () => {
     expect(handlerElephants('availability')).toEqual(['Friday', 'Saturday', 'Sunday', 'Tuesday']);
   });
+  it('caso nao passe parametro para a funcao dev retornar undefined', () => {
+    expect(handlerElephants()).toBe(undefined);
+  });
 });
