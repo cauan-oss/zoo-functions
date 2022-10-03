@@ -5,5 +5,4 @@ function getAnimalsOlderThan(animal, age) {
 
   return granola.residents.every((grama) => grama.age >= age);
 }
-console.log(getAnimalsOlderThan('lions', 2));
 module.exports = getAnimalsOlderThan;
