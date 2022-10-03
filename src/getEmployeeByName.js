@@ -6,5 +6,4 @@ function getEmployeeByName(...employeeName) {
   } return data.employees.find((manager) =>
     employeeName.includes(manager.firstName) || employeeName.includes(manager.lastName));
 }
-console.log(getEmployeeByName());
 module.exports = getEmployeeByName;
