@@ -15,5 +15,6 @@ function countAnimals(animal) {
   const limao = agua.filter((cc) => cc.sex === animal.sex);
   return limao.length;
 }
-countAnimals({specie: 'lions', sex: 'male'})
-module.exports = countAnimals
+countAnimals({ specie: 'lions', sex: 'male' });
+
+module.exports = countAnimals;
