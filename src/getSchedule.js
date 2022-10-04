@@ -29,16 +29,14 @@ meuArray.forEach((dia) => {
   }
 });
 
-function apenasDia(scheduleTarget) {
+function justDay(scheduleTarget) {
   const objVazio = {};
   objVazio[scheduleTarget] = meuOBj[scheduleTarget];
   return objVazio;
 }
 function getSchedule(scheduleTarget) {
-  if (meuArray.includes(scheduleTarget)) return apenasDia(scheduleTarget);
+  if (meuArray.includes(scheduleTarget)) return justDay(scheduleTarget);
   if (data.species.some((very) => scheduleTarget === very.name)) return nomefuncao(scheduleTarget);
   return meuOBj;
 }
-
-console.log(getSchedule());
 module.exports = getSchedule;
