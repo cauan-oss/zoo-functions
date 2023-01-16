@@ -38,3 +38,4 @@ function calculateEntry(entrants) {
 
 /* console.log(calculateEntry(entrants)); */
 module.exports = { calculateEntry, countEntrants };
+//refazendo o projeto zoo functions 
