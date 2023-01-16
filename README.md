@@ -1,13 +1,23 @@
 # :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+<!-- 
+Requisito 1 
+Implemente a função getSpeciesByIds para buscar as espécies dos animais por meio de um ID e retorne um array contendo todos os animais dessa espécie.
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Faça com que a função getSpeciesByIds possa receber vários parâmetros;
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+Retorne um array vazio se a função não receber um id;
+
+Retorne as seguintes informações do arquivo data:
+
+Se a função receber apenas um id, retorne a espécie do animal referente a este id;
+
+Se a função receber vários ids, retorne todas as espécies referente a esses ids.
+
+O que será testado:
+
+A função getSpeciesByIds, caso não receba nenhum parâmetro, deve retornar um array vazio;
+
+A função getSpeciesByIds, caso receba como parâmetro um único ID, deve retornar um array com a espécie referente a esse ID;
+
+A função getSpeciesByIds, caso receba mais de um ID, deve retornar um array com as espécies referentes aos IDs.
 -->
