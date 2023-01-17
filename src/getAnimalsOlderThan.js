@@ -1,13 +1,14 @@
 const data = require("../data/zoo_data");
 
 const getAnimalsOlderThan = (specie, idade) => {
-    const treino = data.species.find((animal) => specie === animal.name );
-    return treino.residents.map((reside) => reside.age )
+    const checkSpecie = data.species.find((animal) => specie === animal.name);
+   return checkSpecie.residents.every((age) =>  idade >= age.age)
+    
 };
 const specieAge = data.species.map((list) => list.residents )
 
 
-console.log(getAnimalsOlderThan('lions'));
+console.log(getAnimalsOlderThan('bears', 12));
 
 
 /*deve receber uma especie e uma idade como parametro
