@@ -14,4 +14,4 @@ const getSpeciesByIds = (...ids) => {
 } 
 
 
-console.log(getSpeciesByIds())
+console.log(getSpeciesByIds());
