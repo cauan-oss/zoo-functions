@@ -5,7 +5,7 @@ const getEmployeeByName = (...param) => {
   const objEmpty = {};
   if (param.length === 0) {
     return objEmpty
-  }
+  } return data.employees.find((empt) => empt.firstName || empt.lastName)
 }
 
-console.log(getEmployeeByName())
+console.log(getEmployeeByName('Nilgen'))
