@@ -1,10 +1,11 @@
 const data = require('../data/zoo_data');
 
-function getEmployeeByName(...employeeName) {
-  if (employeeName.length === 0) {
-    return {};
-  } return data.employees.find((manager) =>
-    employeeName.includes(manager.firstName)
-    || employeeName.includes(manager.lastName));
+const getEmployeeByName = (...param) => {
+
+  const objEmpty = {};
+  if (param.length === 0) {
+    return objEmpty
+  }
 }
-module.exports = getEmployeeByName;
+
+console.log(getEmployeeByName())
