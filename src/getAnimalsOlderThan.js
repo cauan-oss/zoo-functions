@@ -11,4 +11,9 @@ console.log(getAnimalsOlderThan('lions'));
 
 
 /*deve receber uma especie e uma idade como parametro
-ira fazer a comparacao se o animal e a idade passada no parametro tem a idade minima */
+ira fazer a comparacao se o animal e a idade passada no parametro tem a idade minima
+
+aprendendo um pouco mais de como pegar uma chave que esta dentro de um array de objetos que esta 
+dentro de outro array de objetos
+
+*/
