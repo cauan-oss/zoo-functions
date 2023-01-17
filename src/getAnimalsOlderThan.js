@@ -1,9 +1,10 @@
 const data = require("../data/zoo_data");
 
-const getAnimalsOlderThan = (id, age) => {
+const getAnimalsOlderThan = (specie, age) => {
+    //data.species.map(() => );
 };
 const specieId = data.species.filter((specie) => specie.name);
-const specieAge = data.species.map((list) => list.residents.age )
+const specieAge = data.species.map((list) => list.residents )
 
 
-console.log(specieAgeO);
+console.log(getAnimalsOlderThan());
