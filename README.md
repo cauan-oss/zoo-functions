@@ -32,4 +32,18 @@ Retorne um valor booleano.
 O que será testado:
 
 A função, ao receber uma espécie e uma idade como parâmetros, deve testar se todos os animais desta espécie possuem a idade mínima especificada.
+
+Requisito 3 
+Implemente a função getEmployeeByName que deve buscar por pessoas colaboradoras através de seu primeiro ou último nome.
+
+Retorne um objeto vazio caso a função não receba parâmetros;
+
+Retorne as informações da pessoa colaboradora caso o parâmetro seja igual ao nome ou igual ao último nome no seguinte formato:
+O que será testado:
+
+A função deve retornar um objeto vazio caso não receba parâmetros;
+
+A função deve retornar o objeto da pessoa colaboradora caso receba o seu primeiro nome como parâmetro;
+
+A função deve retornar o objeto da pessoa colaboradora caso receba o seu último nome como parâmetro.
 -->
